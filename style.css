@@ -75,10 +75,6 @@ h2 {
   margin: 10px;
 }
 
-.social-links a:hover img {
-  filter: brightness(150%);
-}
-
 .social-links img {
   width: 40px;
 }
