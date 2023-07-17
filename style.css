@@ -79,6 +79,6 @@ h2 {
   width: 40px;
 }
 
-.social-links img {
-  width: 40px;
+.social-links a:hover img {
+  filter: sepia(100%);
 }
