@@ -2,23 +2,83 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #b7d4e1;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f2f2f2;
 }
 
 h1 {
+  font-size: 36px;
   color: #333;
+  margin-bottom: 10px;
 }
 
 h2 {
+  font-size: 20px;
+  color: #777;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.game {
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.game h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
   color: #333;
 }
 
-button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+.game p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.store-links img {
+  width: 120px;
   margin-right: 10px;
-  margin-bottom: 10px;
+}
+
+.support {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f2f2f2;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social-links img {
+  width: 40px;
+}
+
+.social-links img {
+  width: 40px;
 }
