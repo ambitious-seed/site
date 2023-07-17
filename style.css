@@ -42,8 +42,8 @@ h2 {
 }
 
 .game img {
-  width: 100px;
-  height: 100px;
+  width: 10px;
+  height: auto;
   margin-bottom: 10px;
 }
 
