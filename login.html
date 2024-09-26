@@ -7,10 +7,11 @@
     <script>
         function checkPassword() {
             var password = document.getElementById("password").value;
-            if (password === "secret123") {  // укажите здесь ваш пароль
-                window.location.href = "hidden.html";  // путь к скрытой странице
+            if (password === "123") {
+                localStorage.setItem("access_granted", "true");  // Запоминаем, что доступ разрешён
+                window.location.href = "hidden.html";  // Переход на скрытую страницу
             } else {
-                alert("Неверный пароль!");
+                alert("Incorrect password!");
             }
         }
     </script>
