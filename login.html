@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Password</title>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "secret123") {  // укажите здесь ваш пароль
+                window.location.href = "hidden.html";  // путь к скрытой странице
+            } else {
+                alert("Неверный пароль!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Введите пароль для доступа к скрытой странице</h1>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Войти</button>
+</body>
+</html>
