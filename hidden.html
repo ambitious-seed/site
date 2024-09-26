@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hidden Page</title>
+    <script>
+        window.onload = function() {
+            // Проверяем, есть ли правильный пароль в localStorage
+            if (localStorage.getItem("access_granted") !== "true") {
+                // Если нет, перенаправляем на страницу с паролем
+                alert("Access denied. Redirecting to password page.");
+                window.location.href = "index.html";  // Замени на страницу ввода пароля
+            }
+        }
+    </script>
 </head>
 <body>
     <h1>This is a hidden page</h1>
